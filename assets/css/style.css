@@ -864,10 +864,17 @@ section {
 --------------------------------------------------------------*/
 .meetings .icon-box {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-  padding: 50px 30px;
+  padding: 30px 30px;
   transition: all ease-in-out 0.4s;
   background: #fff;
 }
+
+.meetings img {
+    display: block;
+    max-width: 128px;
+    max-height: 100px;
+    width: auto;
+    height: auto;}
 
 .meetings .icon-box .icon {
   margin-bottom: 10px;
@@ -1127,6 +1134,12 @@ section {
 }
 
 .team .member .pic {
+  overflow: hidden;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.pic {
   overflow: hidden;
   width: 180px;
   border-radius: 50%;
