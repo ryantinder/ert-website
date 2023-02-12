@@ -1333,6 +1333,8 @@ section {
 .pricing .featured .buy-btn {
   background: #47b2e4;
   color: #fff;
+  width: 100%;
+  text-align: center;
 }
 
 .pricing .featured .buy-btn:hover {
